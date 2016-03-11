@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SpecialLabel.h"
+#import "LabelModel.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SpecialLabel *specialLabel = [[SpecialLabel alloc] init];
+    LabelModel *model = [LabelModel sharedInstance];
+    model.number = 300;
+    model.contentText = @"好大家奥帆基地大驾大驾dddjjjjjjjjjjjjjjdj京津冀的xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx骄傲你阿济格多看几个那可够打开嘎嘎看的抗菌看嘎就刚卡机噶大嘎嘎叫刚卡机个";
+    model.xnumber = 19;
+    model.ynumer = 15;
+    model.fontNumber = 14;
+    model.labelColor = [UIColor redColor];
+    [specialLabel passValue:model];
+    [self.view addSubview:specialLabel];
+    
 }
 
 - (void)didReceiveMemoryWarning {

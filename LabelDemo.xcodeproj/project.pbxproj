@@ -15,6 +15,8 @@
 		646D87881C906F5200EBDB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D87861C906F5200EBDB15 /* LaunchScreen.storyboard */; };
 		646D87931C906F5200EBDB15 /* LabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D87921C906F5200EBDB15 /* LabelDemoTests.m */; };
 		646D879E1C906F5200EBDB15 /* LabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D879D1C906F5200EBDB15 /* LabelDemoUITests.m */; };
+		646D87AD1C906F8A00EBDB15 /* SpecialLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D87AC1C906F8A00EBDB15 /* SpecialLabel.m */; };
+		648EA5BC1C9127150066B4D4 /* LabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EA5BB1C9127150066B4D4 /* LabelModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		646D87991C906F5200EBDB15 /* LabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		646D879D1C906F5200EBDB15 /* LabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelDemoUITests.m; sourceTree = "<group>"; };
 		646D879F1C906F5200EBDB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646D87AB1C906F8A00EBDB15 /* SpecialLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLabel.h; sourceTree = "<group>"; };
+		646D87AC1C906F8A00EBDB15 /* SpecialLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLabel.m; sourceTree = "<group>"; };
+		648EA5BA1C9127150066B4D4 /* LabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelModel.h; sourceTree = "<group>"; };
+		648EA5BB1C9127150066B4D4 /* LabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				646D877C1C906F5200EBDB15 /* AppDelegate.m */,
 				646D877E1C906F5200EBDB15 /* ViewController.h */,
 				646D877F1C906F5200EBDB15 /* ViewController.m */,
+				646D87AB1C906F8A00EBDB15 /* SpecialLabel.h */,
+				646D87AC1C906F8A00EBDB15 /* SpecialLabel.m */,
+				648EA5BA1C9127150066B4D4 /* LabelModel.h */,
+				648EA5BB1C9127150066B4D4 /* LabelModel.m */,
 				646D87811C906F5200EBDB15 /* Main.storyboard */,
 				646D87841C906F5200EBDB15 /* Assets.xcassets */,
 				646D87861C906F5200EBDB15 /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648EA5BC1C9127150066B4D4 /* LabelModel.m in Sources */,
 				646D87801C906F5200EBDB15 /* ViewController.m in Sources */,
 				646D877D1C906F5200EBDB15 /* AppDelegate.m in Sources */,
+				646D87AD1C906F8A00EBDB15 /* SpecialLabel.m in Sources */,
 				646D877A1C906F5200EBDB15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +508,7 @@
 				646D87A41C906F5200EBDB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		646D87A51C906F5200EBDB15 /* Build configuration list for PBXNativeTarget "LabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				646D87A71C906F5200EBDB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		646D87A81C906F5200EBDB15 /* Build configuration list for PBXNativeTarget "LabelDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				646D87AA1C906F5200EBDB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
